@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen bg-slate-900 text-white p-3;
+}
+
+.PLANNED {
+  @apply bg-gray-400;
+}
+.ONGOING {
+  @apply bg-blue-400;
+}
+.DONE {
+  @apply bg-green-400;
+}
